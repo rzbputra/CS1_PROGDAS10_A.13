@@ -22,7 +22,7 @@ void vigenereDecrypt(char *ciphertext, char *key) {
 
 int main() {
     char ciphertext[] = "Asiy Nmezpam, Ytce Wozx!"; //Pesan Enkripsi
-	char key[] = "RealKey";
+	  char key[] = "RealKey";
 
     printf("Encypted Text : %s\n", ciphertext);
     vigenereDecrypt(ciphertext, key);
